@@ -1,0 +1,6 @@
+<routes xmlns="http://camel.apache.org/schema/spring">
+  <route id="log-body">
+    <from uri="direct:log-body"/>
+    <log message="Body is ${body}"/>
+  </route>
+</routes>
